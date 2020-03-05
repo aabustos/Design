@@ -1,0 +1,65 @@
+*{margin: 0;padding: 0}
+body{
+    background-color: rgb(226, 75, 75);
+    padding-top: 10vh;
+    top: -50px;
+    z-index: 1;
+}
+
+.form-container{
+    width:250px;
+    height:auto;
+    padding: 10px 150px;
+    background-color:grey;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+
+}
+
+.user-image{
+    background:url('uhlogo.png') no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: 100%;
+    position: relative;
+    right: -560px;
+    top: 60px;
+    z-index: -1;
+    
+}
+
+ul.list{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.list li{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+ul.list li input{
+    width:  250px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3dd;
+    border-radius: 50px;
+}
+
+ul.list li input[type="button"]{
+    
+    background-color: rgb(46, 46, 46);
+    color:white;
+}
+
+ul.list li:nth-child(5){
+    color: darkred;
+}
+
+
+ul.list li:nth-child(6){
+    color: darkred;
+}
